@@ -1,0 +1,53 @@
+body {
+  background-color: #fef0e5;
+  margin: 0;
+  padding: 0;
+}
+
+.course {
+  color: #E0622B;
+  text-transform: uppercase;
+  font: normal 40px/40px "tiepolo-bold", serif;
+  letter-spacing: 0.05em;
+  padding: 50px;
+  text-align: center;
+}
+
+.dish {
+  color: #593a26;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  text-align: left;
+}
+
+.description,
+.price {
+  color: #7A5E48;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+
+.border-bottom-dashed {
+  border-bottom: dashed 1px rgba(201, 173, 154, 0.5);
+  padding-bottom: 50px;
+}
+
+.description {
+  text-align: left;
+}
+
+.menu-item {
+  padding-bottom: 50px;
+}
+
+.price {
+  text-align: right;
+}
+
+#menu-container {
+  max-width: 850px;
+}
